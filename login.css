@@ -1,0 +1,104 @@
+/* Login Page */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #fffdfd, #e0dddd);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Form Box */
+.form-box {
+  background: #111;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.form-box h2 {
+  margin-bottom: 10px;
+  color: #00aaff;
+}
+
+.form-box p {
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Input Groups */
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1c1c1c;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #00aaff;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: #00aaff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0088cc;
+}
+
+/* Extra Links */
+.signup-link,
+.forgot-password {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.signup-link a,
+.forgot-password a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.signup-link a:hover,
+.forgot-password a:hover {
+  text-decoration: underline;
+}
